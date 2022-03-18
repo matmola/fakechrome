@@ -24,11 +24,13 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 25vh;
+  margin-bottom: 20vh;
 }
 
 .item {
   width: 70vw;
-  height: 16vh;
+  height: 15vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,7 +39,6 @@ body {
 h2 {
   font-size: 7em;
   color: white;
-  margin-top: 23vh;
 }
 
 input {
@@ -49,23 +50,11 @@ input {
 }
 
 #quote {
-  margin-top: 25vh;
   color: white;
-  margin-bottom: 20vh;
-}
-
-#clock {
-  margin-top: 44vh;
 }
 
 #weather {
   color: white;
-  margin-bottom: 18vh;
-}
-
-#greeting {
-  padding-bottom: 10vh;
-  padding-top: 18vh;
 }
 
 button {
@@ -73,10 +62,10 @@ button {
   border: transparent;
 }
 
-#login-form {
-  margin-top: 40vh;
-}
-
 input::placeholder {
   color: white;
+}
+
+#login-form {
+  max-width: 32vw;
 }
