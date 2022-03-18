@@ -17,9 +17,67 @@ img {
 }
 
 body {
-  color: rgb(14, 65, 15);
+  color: white;
 }
 
 .container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.item {
+  width: 70vw;
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 7em;
+  color: white;
+  margin-top: 23vh;
+}
+
+input {
+  background: transparent;
+  border: transparent;
+  color: white;
+  font-size: 20px;
+  width: 32vw;
+}
+
+#quote {
+  margin-top: 25vh;
+  color: white;
+  margin-bottom: 20vh;
+}
+
+#clock {
+  margin-top: 44vh;
+}
+
+#weather {
+  color: white;
+  margin-bottom: 18vh;
+}
+
+#greeting {
+  padding-bottom: 10vh;
+  padding-top: 18vh;
+}
+
+button {
+  background: transparent;
+  border: transparent;
+}
+
+#login-form {
+  margin-top: 40vh;
+}
+
+input::placeholder {
+  color: white;
 }
